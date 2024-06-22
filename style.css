@@ -45,7 +45,13 @@ div.font_head {color: rgb(0, 0, 0);}
     padding: 15px;
     img{width: 250px;}
   }
- 
+  /* Test zum Anordnen */
+  .columnC {
+    align-content: center;
+    width: 100%;
+    padding: 15px;
+    img{width: 250px;}
+  }
   
   /* Clear floats after the columns */
   .row::after {
