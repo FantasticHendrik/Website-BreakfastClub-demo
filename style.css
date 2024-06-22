@@ -1,0 +1,80 @@
+div.font_basic {color: rgb(0, 0, 0);
+size: 0cap;}
+div.font_head {color: rgb(0, 0, 0);}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #5ed464;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #1e8b23;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #5ed464;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 310px;
+    padding: 15px;
+    img{width: 250px;}
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+    body {background-color: #5ed464;}
+input[type=text] {
+        width: 25%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+input[type=number] {
+        width: 25%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+.input{
+    float: center;
+}
+      
